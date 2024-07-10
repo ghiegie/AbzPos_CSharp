@@ -90,7 +90,6 @@
             listView3 = new ListView();
             label5 = new Label();
             tabPage3 = new TabPage();
-            label9 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             panel2.SuspendLayout();
@@ -126,7 +125,6 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(label9);
             panel2.Controls.Add(button9);
             panel2.Controls.Add(button8);
             panel2.Controls.Add(button7);
@@ -640,15 +638,6 @@
             tabPage3.Text = "Payment Page";
             tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(70, 136);
-            label9.Name = "label9";
-            label9.Size = new Size(38, 15);
-            label9.TabIndex = 11;
-            label9.Text = "label9";
-            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -732,6 +721,5 @@
         private Button button21;
         private Button button22;
         private Button button23;
-        private Label label9;
     }
 }
