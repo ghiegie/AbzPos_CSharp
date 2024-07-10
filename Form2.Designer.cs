@@ -26,8 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             ListViewItem listViewItem1 = new ListViewItem("asdasd");
             ListViewItem listViewItem2 = new ListViewItem("asdasd");
             ListViewItem listViewItem3 = new ListViewItem("zxczxczxczxc");
@@ -91,6 +90,7 @@
             listView3 = new ListView();
             label5 = new Label();
             tabPage3 = new TabPage();
+            label9 = new Label();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             panel2.SuspendLayout();
@@ -126,6 +126,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(label9);
             panel2.Controls.Add(button9);
             panel2.Controls.Add(button8);
             panel2.Controls.Add(button7);
@@ -625,7 +626,7 @@
             label5.AutoSize = true;
             label5.Location = new Point(139, 12);
             label5.Name = "label5";
-            label5.Size = new Size(105, 15);
+            label5.Size = new Size(106, 15);
             label5.TabIndex = 0;
             label5.Text = "Transaction Details";
             // 
@@ -638,6 +639,15 @@
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Payment Page";
             tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(70, 136);
+            label9.Name = "label9";
+            label9.Size = new Size(38, 15);
+            label9.TabIndex = 11;
+            label9.Text = "label9";
             // 
             // Form2
             // 
@@ -722,5 +732,6 @@
         private Button button21;
         private Button button22;
         private Button button23;
+        private Label label9;
     }
 }
